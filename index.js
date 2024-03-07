@@ -105,8 +105,6 @@ app.post('/api/persons', (request, response) => {
 })
   
 const PORT = process.env.PORT || 3001
-const currentUrl = window.location.href;
-console.log(currentUrl);
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
